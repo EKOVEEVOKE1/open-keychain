@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HP</title>
+    <link rel="canonical" href="https://www.adobe.com/partnerpromo/hp-inc.html">
+    <meta name="description" content="">
+    <meta property="og:title" content="HP">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://www.adobe.com/partnerpromo/media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=1200&#x26;format=pjpg&#x26;optimize=medium">
+    <meta property="og:image:secure_url" content="https://www.adobe.com/partnerpromo/media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=1200&#x26;format=pjpg&#x26;optimize=medium">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HP">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://www.adobe.com/partnerpromo/media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=1200&#x26;format=pjpg&#x26;optimize=medium">
+    <meta name="hreflinksuseragents" content="Googlebot, Tokowaka, ChatGPT-User, Google-InspectionTool">
+    <meta name="mobile-gnav-v2" content="on">
+    <meta name="footer" content="global-footer">
+    <meta name="header" content="global-navigation">
+    <meta name="universal-nav" content="profile, appswitcher, notifications, cart">
+    <meta name="adobe-home-redirect" content="on">
+    <meta name="m7-pa-code" content="ccsn_direct_individual">
+    <meta name="m7-checkout-client-id" content="acom_biz">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="jarvis-chat" content="on">
+    <meta name="gnav-source" content="https://main--cc--adobecom.aem.live/cc-shared/gnav-thin">
+    <meta name="footer-source" content="https://main--cc--adobecom.aem.live/cc-shared/footer-thin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="head-loaded" content="false">
+    <style>
+  body {
+    display: none;
+  }
+  .reading-width {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .reading-width-footer-tag {
+    max-width: 800px;
+    margin: -20px auto;
+    padding: 0 20px 20px;
+  }
+
+  .reading-width-footer-tag > .content {
+    max-width: var(--grid-container-width);
+    margin: 0 auto;
+  }
+  /* TODO: Remove once style is handled in merch */
+  :root:has(meta[name='theme'][content='max25']) {
+    @media screen and (max-width: 767px) {
+      .two-merch-cards.mini-compare-chart,
+      .three-merch-cards.mini-compare-chart,
+      .four-merch-cards.mini-compare-chart {
+        grid-template-columns: 310px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .three-merch-cards.mini-compare-chart,
+      .four-merch-cards.mini-compare-chart {
+        grid-template-columns: repeat(2, 310px);
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      .three-merch-cards.mini-compare-chart,
+      .four-merch-cards.mini-compare-chart {
+        grid-template-columns: repeat(3, 310px);
+      }
+    }
+
+    @media screen and (min-width: 1600px) {
+      .four-merch-cards.mini-compare-chart {
+        grid-template-columns: repeat(4, 336px);
+      }
+    }
+  }
+</style>
+    <script src="/creativecloud/scripts/fallback.js" nomodule></script>
+    <script type="module">
+  const userAgentMeta = document.querySelector('meta[name="hreflinksuseragents"]');
+  const allowedAgents = userAgentMeta && userAgentMeta.content.split(',');
+  const userAgentString = window.navigator.userAgent;
+  const isAllowedAgent = allowedAgents && allowedAgents.some((agent) => userAgentString.includes(agent.trim()));
+
+  const flagMeta = document.querySelector('meta[name="head-loaded"]');
+  const headAlreadyLoaded = flagMeta.content === 'true';
+  const LOCALES = ['ae_ar', 'ae_en', 'africa', 'ar', 'at', 'au', 'be_en', 'be_fr', 'be_nl', 'bg', 'br', 'ca_fr', 'ca', 'ch_de', 'ch_fr', 'ch_it', 'cl', 'cn', 'co', 'cr', 'cy_en', 'cz', 'de', 'dk', 'ec', 'ee', 'eg_ar', 'eg_en', 'el', 'es', 'fi', 'fr', 'gr_el', 'gr_en', 'gt', 'hk_en', 'hk_zh', 'hu', 'id_en', 'id_id', 'ie', 'il_en', 'il_he', 'in_hi', 'in', 'it', 'jp', 'kr', 'kw_ar', 'kw_en', 'la', 'lt', 'lu_de', 'lu_en', 'lu_fr', 'lv', 'mena_ar', 'mena_en', 'mt', 'mx', 'my_en', 'my_ms', 'ng', 'nl', 'no', 'nz', 'pe', 'ph_en', 'ph_fil', 'pl', 'pr', 'pt', 'qa_ar', 'qa_en', 'ro', 'ru', 'sa_ar', 'sa_en', 'se', 'sg', 'si', 'sk', 'th_en', 'th_th', 'tr', 'tw', 'ua', 'uk', 'vn_en', 'vn_vi', 'za'];
+
+  (() => {
+    function buildLink(language, url) {
+      const link = document.createElement('link');
+      link.setAttribute('rel', 'alternate');
+      link.setAttribute('hreflang', language);
+      link.setAttribute('href', url);
+      return link;
+    }
+
+    async function fetchAndParseSitemap() {
+      const sitemapOrigin = 'https://www.adobe.com';
+      const { origin, pathname } = window.location;
+
+      let sitemapPath = '/cc-shared/assets/sitemap.xml';
+      const localeMatch = LOCALES.find(locale => pathname.startsWith(`/${locale}/`));
+
+      if (localeMatch) {
+        sitemapPath = `/${localeMatch}/cc-shared/assets/sitemap.xml`;
+      }
+      
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000);
+        let response;
+        try {
+          response = await fetch(`${origin}${sitemapPath}`, { signal: controller.signal });
+        } finally {
+          clearTimeout(timeoutId);
+        }
+        if (!response.ok) {
+          console.warn('Failed to fetch sitemap:', response.status);
+          return;
+        }
+        
+        const xmlText = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+        const parseError = xmlDoc.querySelector('parsererror');
+        if (parseError) {
+          return;
+        }
+        
+        const urlElements = xmlDoc.querySelectorAll('url');
+        let currentUrlElement = null;
+        const correctedPath = pathname.endsWith('.html') ? pathname : `${pathname}.html`;
+        const isLocalRoot = localeMatch && `${sitemapOrigin}/${localeMatch}/` === `${sitemapOrigin}${pathname}`;
+        const rootPage = isLocalRoot ? `${sitemapOrigin}/${localeMatch}/` : `${sitemapOrigin}/`; 
+        const currentPageUrl = pathname !== '/' && pathname !== `/${localeMatch}/` ? `${sitemapOrigin}${correctedPath}` : `${rootPage}`;
+
+        for (const urlElement of urlElements) {
+          const loc = urlElement.querySelector('loc')?.textContent;
+          if (loc === currentPageUrl || loc === currentPageUrl.replace(/\/$/, '')) {
+            currentUrlElement = urlElement;
+            break;
+          }
+        }
+        
+        if (!currentUrlElement) {
+          console.warn('Current page not found in sitemap');
+          return;
+        }
+        
+        const alternateLinks = currentUrlElement.querySelectorAll('link[rel="alternate"]');
+        const linkElements = [];
+
+        alternateLinks.forEach(altLink => {
+          const hreflang = altLink.getAttribute('hreflang');
+          const href = altLink.getAttribute('href');
+          
+          if (hreflang && href) {
+            linkElements.push(buildLink(hreflang, href));
+          }
+        });
+        
+        const titleElement = document.head.querySelector('title');
+        if (linkElements.length > 0 && titleElement) {
+          titleElement.after(...linkElements);
+        }
+      } catch (error) {
+        console.error('Error fetching or parsing sitemap:', error);
+      }
+    } 
+
+    if (isAllowedAgent && !headAlreadyLoaded) {
+      fetchAndParseSitemap();
+    }
+  })();
+
+  import { scriptInit } from '/creativecloud/scripts/utils.js';
+  scriptInit();
+
+  flagMeta.content = 'true';
+</script>
+    <link rel="icon" href="data:,">
+  <script >bazadebezolkohpepadr="1582725790"</script><script type="text/javascript" src="https://www.adobe.com/akam/13/5e567856"  defer></script></head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <div class="icon-block full-width large xl-spacing-top l-spacing-bottom static-links">
+          <div>
+            <div>
+              <p>
+                <picture>
+                  <source type="image/webp" srcset="./media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                  <source type="image/webp" srcset="./media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=750&#x26;format=webply&#x26;optimize=medium">
+                  <source type="image/png" srcset="./media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+                  <img loading="lazy" alt="" src="./media_1a58e2cf7d6f268aeb30b05df3e4e3075b26cac57.png?width=750&#x26;format=png&#x26;optimize=medium" width="148" height="148">
+                </picture>
+              </p>
+              <h2 id="get-3-months-of-adobe-express-premium-plan">Get 3-months of Adobe Express Premium plan.</h2>
+              <p>The quick and easy create-anything app with millions of templates and design assets, generative AI features, and more.</p>
+              <p><a href="/cc-shared/fragments/terms-conditions-modals/campaigns/hp-inc-terms-and-conditions#see-terms-modal">See terms</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section-metadata">
+          <div>
+            <div>style</div>
+            <div>l-spacing</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section-metadata">
+          <div>
+            <div>style</div>
+            <div>m-spacing</div>
+          </div>
+          <div>
+            <div>background</div>
+            <div>#f5f5f5</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text xl-spacing-top m-spacing-bottom center">
+          <div>
+            <div>
+              <h2 id="get-the-deal-on-adobe-express">Get the deal on Adobe Express.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-metadata">
+          <div>
+            <div>background</div>
+            <div>#F5F5F5</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="merch-card plans secure">
+          <div>
+            <div>#EDCC2D, #000000</div>
+            <div>3 month free</div>
+          </div>
+          <div>
+            <div>
+              <p><a href="/cc-shared/assets/img/product-icons/svg/express.svg">https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/express.svg</a></p>
+              <h3 id="adobe-express-premium">Adobe Express Premium</h3>
+              <h3 id="price---puf---adobe-express"><a href="https://milo.adobe.com/tools/ost?osi=e9EajiuZmNzRIvTlMzxZGERifEq2bZAMngbsemf3CT4&#x26;type=price&#x26;seat=false&#x26;old=false">PRICE - PUF - Adobe Express</a></h3>
+              <p>Design flyers, TikToks, resumes, and Reels with the new, all-in-one Adobe Express.</p>
+              <p><strong><a href="https://milo.adobe.com/tools/ost?osi=P9IoCqDaVXFfknGJhISt0jr_TYBj5fBMD-iyBxt37Aw&#x26;type=checkoutUrl&#x26;text=buy-now&#x26;workflowStep=commitment&#x26;cli=partner&#x26;sdid=YXPZFNS7&#x26;mv=affiliate">Get Offer</a></strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="section-metadata">
+          <div>
+            <div>style</div>
+            <div>One merch card, grid width 8</div>
+          </div>
+          <div>
+            <div>background</div>
+            <div>#F5F5F5</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text m-spacing center">
+          <div>
+            <div>
+              <picture>
+                <source type="image/webp" srcset="./media_118f6ff79f5b08d93edb56bec80bb78d1715c087f.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                <source type="image/webp" srcset="./media_118f6ff79f5b08d93edb56bec80bb78d1715c087f.png?width=750&#x26;format=webply&#x26;optimize=medium">
+                <source type="image/png" srcset="./media_118f6ff79f5b08d93edb56bec80bb78d1715c087f.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+                <img loading="lazy" alt="Adobe Infinity Partner logo" src="./media_118f6ff79f5b08d93edb56bec80bb78d1715c087f.png?width=750&#x26;format=png&#x26;optimize=medium" width="226" height="48">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="section-metadata">
+          <div>
+            <div>background</div>
+            <div>#F5F5F5</div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </main>
+    <footer></footer>
+  <noscript><img src="https://www.adobe.com/akam/13/pixel_5e567856?a=dD0wNjRhOGViYzZmNzIxOGZlM2Q5YzllN2U4ZDdiNDk4NDEyZDFkZWQwJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+</html>
